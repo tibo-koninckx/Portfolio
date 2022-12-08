@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>Tibo Koninckx</title>
+		<link rel="stylesheet" href="Stijl/MijnStijl.css">
+		<link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm.min.css" />
+	</head>
+	<body>
+		<header class="boven">
+			<h1>Tibo Koninckx</h1>
+			<h2>Student Graduaat Programmeren</h2>
+
+			<nav class="navbar">
+        			<ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="overMij.html">Over mij</a></li>
+                  <li><a href="cv.html">CV</a></li>
+                  <li><a href="projecten.html">Projecten</a></li>
+                  <li><a href="werkplekleren.html">Werkplekleren</a></li>
+                  <li><a><strong>Contacteer Mij</strong></a></li>
+				</ul>
+      		</nav>
+		</header>
+
+        <article class="contact">
+            <h1>Contacteer mij</h1>
+    <form action="post-demo.php" method="post">
+      <fieldset>
+        <legend>Persoonlijke gegevens</legend>
+        <label for="firstName">Voornaam:</label>
+        <input type="text" name="Voornaam" id="firstName" /><br />
+        <label for="lastName">Familienaam:</label>
+        <input type="text" name="Familienaam" id="lastName" /><br />
+        <label for="email">E-mail:</label>
+        <input type="email" name="E-mail" id="email" />
+      </fieldset>
+      <fieldset>
+        <legend>Uw vraag</legend>
+        <label for="questionType">Soort vraag:</label>
+        <select name="Type-vraag" id="questionType">
+          <option value="algemeen">Algemene vraag</option>
+          <option value="andere">Andere vraag</option></select
+        ><br />
+        <label for="question">Uw vraag:</label>
+        <textarea name="Vraag" id="question" cols="30" rows="10"></textarea>
+      </fieldset>
+      <br />
+      <input type="submit" value="Verstuur" />
+    </form>
+        </article>
+	</body>
+		<footer>
+			<p>Door Tibo Koninckx</p>
+		</footer>
+</html>

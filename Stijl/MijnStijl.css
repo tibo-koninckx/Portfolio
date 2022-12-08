@@ -1,0 +1,209 @@
+html
+	{
+		background-image: url(https://www.managementimpact.nl/content/uploads/2021/04/patronen-2-261x181.jpg) !important;
+		font-family: Arial !important;
+	}
+			
+h1{
+				
+	font-size: 24px;
+    line-height: 26px;
+    color: #f04c25;
+    font-weight: 600;
+	}
+
+h2 {
+					
+    font-size: 18px;
+    line-height: 20px;
+    color: #009cab;
+    font-weight: normal;
+	}
+
+h3{
+				
+	font-size: 15px;
+	line-height: 15px;
+	color: #8FBC8F;
+	font-weight: 200;
+	font-weight: bold;
+	}
+
+
+#myself {
+	border: 5px solid orange;
+	border-radius: 20px;
+  	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 60px 10px 10px -170px;
+	margin-top: 10px;
+			
+	}
+
+	.ScreenshotHome, .ScreenshotOverMij
+	{
+		display: inline-block;
+		border: 5px solid orange;
+		border-radius: 20px;
+		width: 550px;
+		height: 350px;
+		margin: 20px 0px;
+	}
+
+	.ScreenshotOverMij
+	{
+		height: 650px!important;
+	}
+
+body
+	{
+	background: #EEE5C1;
+	margin: 20px auto !important;
+	border: 5px solid tomato;
+	border-radius: 20px 0px;
+	width: 1000px !important;
+	
+	}
+
+.navbar
+{
+	display: inline-block;
+	border: 5px solid white;
+	border-radius: 20px;
+	width: 900px;
+	padding: 5px;
+	margin: 15px -135px
+}
+
+.navbar li
+{
+	border: 5px solid orange;
+	border-radius: 20px 0px;
+	background: yellowgreen;
+}
+.navbar li :hover
+{
+	color: blue;
+    font-weight: bolder;
+    text-decoration: underline tomato;
+}
+
+article
+{
+	border: 5px solid white;
+	border-radius: 0px 30px;
+	width: 550px;
+	padding: 15px;
+	margin-top: 10px !important;
+}
+
+.home,.cv, .projecten,.portfolio-détail,.werkplekleren, .contact, .post
+{
+	width: 700px;
+	padding: 50px 90px;
+}
+
+.contact
+{
+	border: 0;
+	border-radius: 0;
+	padding: 0;
+	margin-top: 0;
+	max-width: 1000px;
+	margin: 40px auto;
+}
+
+.contact h1
+{
+	font-size: 30px;
+    line-height: 26px;
+    color: blue;
+    font-weight:bolder;
+}
+
+.title
+{
+	text-align: center !important;
+	margin: 5px;
+}
+
+.boven 
+{
+	text-align: center;
+}
+
+.boven h1{
+	margin-top: 25px;
+}
+
+.cvHeader
+{
+	margin-bottom: 25px;
+}
+
+.lijn
+{
+	background: olive;
+	height: 3px;
+}
+
+.button-détail
+{
+	border: 5px solid tomato;
+	background-color: ghostwhite;
+	border-radius: 20px 0px;
+  	color: blue !important;
+  	padding: 14px 25px;
+  	text-align: center;
+	text-decoration: 2px underline tomato;
+  	display: inline-block;
+
+}
+
+/*Formulier opmaak*/
+fieldset
+{
+	border: 5px solid white !important;
+	border-radius: 20px;
+	margin: 20px 0px !important;
+}
+
+fieldset legend
+{
+	color: blue;
+}
+
+label, input, select 
+{
+  display: inline-block !important;
+  margin: 10px 0 !important;
+}
+
+fieldset label, fieldset input, fieldset select, fieldset textarea 
+{
+  min-width: 320px !important;
+  vertical-align: top !important;
+}
+
+label 
+{
+	text-align:left;
+}
+
+ input:focus, textarea:focus
+{
+	background-color: lightblue !important;
+	color: brown !important;
+}
+
+select:focus
+{
+	background-color: cornsilk !important;
+}
+
+input[type="submit"] 
+{
+	width: auto;
+	min-width: auto;
+}
