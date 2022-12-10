@@ -26,5 +26,6 @@ echo
 </body>
 <footer>
   <p>Door Tibo Koninckx</p>
+  <a class="github" href="https://github.com/tibo-koninckx" target="_blank"><img src="Afbeelding/github-mark.png" alt="github mark" /></a>
 </footer>
 </html>
