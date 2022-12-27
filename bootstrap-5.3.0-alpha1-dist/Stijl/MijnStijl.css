@@ -31,14 +31,12 @@ h3{
 	}
 
 
-#myself {
+.myself-fluid {
 	border: 5px solid orange;
 	border-radius: 20px;
-  	float: left;
-	width: 150px;
-	height: 150px;
-	margin: 60px 10px 10px -170px;
-	margin-top: 10px;
+	width: 40%;
+	height: 70%;
+	margin: 10%;
 			
 	}
 
@@ -109,20 +107,6 @@ body
 	float: right;
 }
 
-article
-{
-	border: 5px solid white;
-	border-radius: 0px 30px;
-	width: 550px;
-	padding: 15px;
-	margin-top: 10px !important;
-}
-
-.home,.cv, .projecten,.portfolio-détail,.werkplekleren, .contact, .post
-{
-	width: 700px;
-	padding: 50px 90px;
-}
 
 .contact
 {
