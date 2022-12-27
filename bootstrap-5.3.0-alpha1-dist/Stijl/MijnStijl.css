@@ -7,27 +7,27 @@ html
 			
 h1{
 				
-	font-size: 24px;
-    line-height: 26px;
-    color: #f04c25;
-    font-weight: 600;
+	font-size: 24px !important;
+    line-height: 26pxn !;
+    color: #f04c25 !important;
+    font-weight: 600 !important;
 	}
 
 h2 {
 					
-    font-size: 18px;
-    line-height: 20px;
-    color: #009cab;
-    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 20px !important;
+    color: #009cab !important;
+    font-weight: normal !important;
 	}
 
 h3{
 				
-	font-size: 15px;
-	line-height: 15px;
-	color: #8FBC8F;
-	font-weight: 200;
-	font-weight: bold;
+	font-size: 15px !important;
+	line-height: 15px !important;
+	color: #8FBC8F !important;
+	font-weight: 200 !important;
+	font-weight: bold !important;
 	}
 
 
@@ -42,12 +42,12 @@ h3{
 			
 	}
 
-	.github
+	.github-fluid
 	{
-		float: right;
-		width: 50px;;
-		height: 50px;
-		margin: -50px 10px;
+		width: 8%;
+		height: 20%;
+		margin-left: 70%;
+		margin-top: -10%;
 	}
 
 	.ScreenshotHome, .ScreenshotOverMij
@@ -67,35 +67,46 @@ h3{
 
 body
 	{
-	background: #EEE5C1;
+	background: #EEE5C1 !important;
 	margin: 20px auto !important;
-	border: 5px solid tomato;
-	border-radius: 20px 0px;
-	width: 1000px !important;
+	border: 5px solid tomato !important;
+	border-radius: 20px 0px !important;
+	width: 80% !important;
+	height: 100%;
 	
 	}
 
-.navbar
-{
-	display: inline-block;
-	border: 5px solid white;
-	border-radius: 20px;
-	width: 900px;
-	padding: 5px;
-	margin: 15px -135px
+	.navbar li
+	{
+		padding: 5px;
+	}
+
+	.navbar-nav
+	{
+		margin-left: auto;
+	}
+
+.navbar .navbar-nav > li > a,
+.navbar .navbar-nav > .active > a{
+	border: 5px solid #F6BE00;
+	border-radius: 5px;
+	background-color: #F6BE00;
+    color: gray;
+	font-weight: 500;
+}
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+    color: red;
+	font-weight: bolder;
+	text-decoration: underline tomato;
 }
 
 .navbar li
 {
-	border: 5px solid orange;
-	border-radius: 20px 0px;
-	background: yellowgreen;
-}
-.navbar li :hover
-{
-	color: blue;
-    font-weight: bolder;
-    text-decoration: underline tomato;
+	float: right;
 }
 
 article
