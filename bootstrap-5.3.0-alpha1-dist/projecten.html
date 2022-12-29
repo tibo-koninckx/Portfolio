@@ -3,41 +3,73 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Tibo Koninckx</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="Stijl/MijnStijl.css">
-		<link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm.min.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	</head>
 	<body>
 		<header class="boven">
 			<h1>Tibo Koninckx</h1>
 			<h2>Student Graduaat Programmeren</h2>
 
-			<nav class="navbar">
-        			<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="overMij.html">Over mij</a></li>
-          				<li><a href="cv.html">CV</a></li>
-                        <li><a><strong>Projecten</strong></a></li>
-						<li><a href="werkplekleren.html">Werkplekleren</a></li>
-						<li><a href="contact.html">Contacteer Mij</a></li>
-				</ul>
-      		</nav>
+			<nav class="navbar navbar-expand-lg navbar-light bg-primary-subtle">
+				<div class="container-fluid">
+				  <a class="navbar-brand me-lg-" href="#">portfolio: Tibo Koninckx</a>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					  <li class="nav-item">
+						<a class="nav-link" href="./index.html">Home</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="./overMij.html">Over mij</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="./Cv/Tibo_Koninckx_CV.pdf" target="_blank">CV</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page"><strong>Projecten</strong></a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="./werkplekleren.html">Werkplekleren</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="./contact.html">Contacteer Mij</a>
+					  </li>
+					</ul>
+				  </div>
+				</div>
+			  </nav>
+			  <script src="js/bootstrap.bundle.js"> </script>
+			  
 		</header>
 
-			<article class="projecten">
-				<section>
-			<h3>Mijn projecten</h3>
-			<p>
-				<strong> Portfolio website </strong>
-                <br />
-                Mijn eerste project was het maken van deze portfolio website.
-			</p>
-			<p><a href="portfolio-détails.html">Klik hier</a> om naar de détails te gaan van de Portfolio website</p>
-				</section>
-			</article>
+
+		  <div class="container-fluid">
+			<div class="row justify-content-md-center mt-5">
+			  <div id="content" class="col-12 col-md-6 col-xxl-3">
+				<h3>Mijn projecten</h3>
+
+				<div class="card" style="width: auto;">
+					<img src="./Afbeelding/screenshot_OverMij.png" class="card-img-top" alt="screenshot Home page">
+					<div class="card-body">
+					  <h5 class="card-title">Portfolio Website</h5>
+					  <p class="card-text">Mijn eerste project was het maken van deze portfolio website.</p>
+					  <a href="./portfolio-détails.html" class="btn btn-danger">Klik hier om naar de Détailpagina te gaan</a>
+					</div>
+				  </div>
+			  </div>
+			</div>
+		  </div>
+
 
 	</body>
-	<footer>
-		<p>Door Tibo Koninckx</p>
-		<a class="github" href="https://github.com/tibo-koninckx" target="_blank"><img src="Afbeelding/github-mark.png" alt="github mark" /></a>
-	</footer>
+	<div class="container">
+		<footer class="py-3 my-4">
+		  <p class="text-center text-muted">&copy; Door Tibo Koninckx</p>
+		  <a class="github" href="https://github.com/tibo-koninckx" target="_blank"><img src="./Afbeelding/github-mark.png" class="github-fluid" alt="github-mark"></a>
+		</footer>
+		</div>
 </html>

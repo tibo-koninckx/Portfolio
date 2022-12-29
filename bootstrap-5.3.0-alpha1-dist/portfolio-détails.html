@@ -3,55 +3,104 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Tibo Koninckx</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="Stijl/MijnStijl.css">
-		<link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm.min.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+
 	</head>
 	<body>
 		<header class="boven">
 			<h1>Tibo Koninckx</h1>
 			<h2>Student Graduaat Programmeren</h2>
 
-			<nav class="navbar">
-        			<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="overMij.html">Over mij</a></li>
-          				<li><a href="cv.html">CV</a></li>
-                        <li><a><strong>Projecten</strong></a></li>
-						<li><a href="werkplekleren.html">Werkplekleren</a></li>
-						<li><a href="contact.html">Contacteer Mij</a></li>
-				</ul>
-      		</nav>
+			<nav class="navbar navbar-expand-lg navbar-light bg-primary-subtle">
+				<div class="container-fluid">
+				  <a class="navbar-brand me-lg-" href="#">portfolio: Tibo Koninckx</a>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					  <li class="nav-item">
+						<a class="nav-link" href="./index.html">Home</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="./overMij.html">Over mij</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="./Cv/Tibo_Koninckx_CV.pdf" target="_blank">CV</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page"><strong>Projecten</strong></a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="./werkplekleren.html">Werkplekleren</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="./contact.html">Contacteer Mij</a>
+					  </li>
+					</ul>
+				  </div>
+				</div>
+			  </nav>
+			  <script src="js/bootstrap.bundle.js"> </script>
+
 		</header>
 
-			<article class="portfolio-détail">
-				<section>
-			<h3>Portfolio Détails</h3>
-			<p>
-				<strong> Portfolio website </strong>
-                <br />
-                Alles is begonnen met de beginsels te leren van HTML en CSS.
-                <br/>
-                Daarna hebben we geleerd over het CRAP design, lettertypes en kleur en toen hebben we ook een Wireframework ontworpen.
-                <br/>
-                Daarna hebben we nog verder gewerkt aan een betere CSS opmaak en hoe je contactformulieren op een webpagina plaatst.
-				<br/>
-				De code van het project kan u <a href="Project-Détails/Portfolio/PortfolioCode.zip">hier downloaden</a>
-			</p>
-				</section>
-
-				<section>
-					<img class="ScreenshotHome" src="Afbeelding/screenshot_Home.png" alt="screenshot Home">
-				</section>
-				<section>
-					<img class="ScreenshotOverMij" src="Afbeelding/screenshot_OverMij.png" alt="screenshot Over Mij">
+		  <div class="container-fluid">
+			<div class="row justify-content-md-center mt-5">
+			  <div id="content" class="col-12 col-md-6 col-xxl-4">
+				<h3>Portfolio Détails</h3>
+				<div>
+				<p>
+					
+					<strong> Portfolio website </strong>
+					<br />
+					Alles is begonnen met de beginsels te leren van HTML en CSS.
 					<br/>
-					<a class="button-détail" href="projecten.html"><p>keer terug</p></a>
-				</section>
-			</article>
+					Daarna hebben we geleerd over het CRAP design, lettertypes en kleur en toen hebben we ook een Wireframework ontworpen.
+					<br/>
+					Daarna hebben we nog verder gewerkt aan een betere CSS opmaak en hoe je contactformulieren op een webpagina plaatst.
+					<br/>
+					Hierna hebben we geleerd over Bootstrap, en ik mijn Portfolio aangepast naar Bootstrap.
+					De code van het project kan u <a href="./Project-Détails/Portfolio/PortfolioCode.zip">hier downloaden</a>
+				</p>
+				</div>
+
+				<div class="col-12" style="width: auto;">
+					<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+						  <div class="carousel-item active">
+							<img src="./Afbeelding/screenshot_Home.png" class="d-block w-100" alt="Screenshot Home">
+						  </div>
+						  <div class="carousel-item">
+							<img src="./Afbeelding/screenshot_OverMij.png" class="d-block w-100" alt="overMij">
+						  </div>
+						  <div class="carousel-item">
+							<img src="./Afbeelding/screenshot_Projecten.png" class="d-block w-100" alt="overMij">
+						  </div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+						  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						  <span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+						  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						  <span class="visually-hidden">Next</span>
+						</button>
+					  </div>
+					  <br/>
+						<a href="./projecten.html" class="btn btn-danger">Keer Terug</a>
+				  </div>
+				</div>
+			  </div>
+				</div>
 
 	</body>
-	<footer>
-		<p>Door Tibo Koninckx</p>
-		<a class="github" href="https://github.com/tibo-koninckx" target="_blank"><img src="Afbeelding/github-mark.png" alt="github mark" /></a>
-	</footer>
+	<div class="container">
+		<footer class="py-3 my-4">
+		  <p class="text-center text-muted">&copy; Door Tibo Koninckx</p>
+		  <a class="github" href="https://github.com/tibo-koninckx" target="_blank"><img src="./Afbeelding/github-mark.png" class="github-fluid" alt="github-mark"></a>
+		</footer>
+		</div>
 </html>

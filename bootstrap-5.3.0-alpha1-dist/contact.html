@@ -4,27 +4,49 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Tibo Koninckx</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="Stijl/MijnStijl.css">
-		<link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm.min.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	</head>
 	<body>
 		<header class="boven">
 			<h1>Tibo Koninckx</h1>
 			<h2>Student Graduaat Programmeren</h2>
 
-			<nav class="navbar">
-        			<ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="overMij.html">Over mij</a></li>
-                  <li><a href="cv.html">CV</a></li>
-                  <li><a href="projecten.html">Projecten</a></li>
-                  <li><a href="werkplekleren.html">Werkplekleren</a></li>
-                  <li><a><strong>Contacteer Mij</strong></a></li>
-				</ul>
-      		</nav>
+			<nav class="navbar navbar-expand-lg navbar-light bg-primary-subtle">
+				<div class="container-fluid">
+				  <a class="navbar-brand me-lg-" href="#">portfolio: Tibo Koninckx</a>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					  <li class="nav-item">
+						<a class="nav-link" href="./index.html">Home</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="./overMij.html">Over mij</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="./Cv/Tibo_Koninckx_CV.pdf" target="_blank">CV</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="./projecten.html">Projecten</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="./werkplekleren.html">Werkplekleren</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page"><strong>Contacteer Mij</strong></a>
+					  </li>
+					</ul>
+				  </div>
+				</div>
+			  </nav>
+			  <script src="js/bootstrap.bundle.js"> </script>
 		</header>
 
-        <article class="contact">
+       <!---- <article class="contact">
             <h1>Contacteer mij</h1>
     <form action="post-demo.php" method="post">
       <fieldset>
@@ -49,9 +71,66 @@
       <br />
       <input type="submit" value="Verstuur" />
     </form>
-        </article>
+        </article>!-->
+
+        <form>
+          <div class="container-fluid"> 
+            <div class="row">
+                <div id="content" class="col-12 col-md-6">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput" class="form-label">Naam</label>
+                    <input type="naam" class="form-control" id="exampleFormControlInput" placeholder="naam">
+                  </div>
+                </div>
+    
+                <div id="content" class="col-12 col-md-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInputfm" class="form-label">Familienaam</label>
+                    <input type="naam" class="form-control" id="exampleFormControlInputfm" placeholder="familienaam">
+                  </div>
+    
+                </div>
+            </div>
+            
+            <div class="row">
+                <div id="content" class="col-12 col-md-6">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+            </div>
+
+            <div id="content" class="col-12 col-md-6">
+              <div class="mb-3">
+                <label class="form-label">Maak uw keuze</label>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Open dit select menu</option>
+                  <option value="1">Algemene vraag</option>
+                  <option value="2">Andere Vraag</option>
+                </select>
+              </div>
+            </div>
+        </div>
+    
+              <div id="content" class="col-12 col-md-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Uw vraag:</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </div>
+
+              <div class="row">
+                <div id="content" class="col-12 col-md-6">
+                    <button type="submit" class="btn btn-danger">Verstuur</button>
+                </div>
+              </div>
+        </div>
+        </form>
 	</body>
-		<footer>
-			<p>Door Tibo Koninckx</p>
-      <a class="github" href="https://github.com/tibo-koninckx" target="_blank"><img src="Afbeelding/github-mark.png" alt="github mark" /></a>
+	<div class="container">
+		<footer class="py-3 my-4">
+		  <p class="text-center text-muted">&copy; Door Tibo Koninckx</p>
+		  <a class="github" href="https://github.com/tibo-koninckx" target="_blank"><img src="./Afbeelding/github-mark.png" class="github-fluid" alt="github-mark"></a>
+		</footer>
+		</div>
 </html>
